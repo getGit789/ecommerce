@@ -1,0 +1,79 @@
+## Functional Requirements
+
+### Dashboard Overview
+- Display key metrics like total revenue, shipped orders, pending orders, and new orders.
+- Include recent activity logs and notifications for urgent tasks.
+- Show real-time sales data comparison (e.g., today vs. yesterday).
+
+### Orders Management
+- View, update, and manage orders.
+- Filter orders by status (e.g., shipped, pending, new).
+- Add and track shipping updates.
+
+### Products Management
+- Add, edit, and delete products.
+- Manage product categories and inventory.
+- Enable product search functionality.
+
+### Customer Management
+- View and manage customer data.
+- Include customer support messaging feature.
+- Group customers by activity or purchase history.
+
+### Reports and Analytics
+- Visualize sales data using charts.
+- Include filters for date ranges and categories.
+- Provide downloadable reports (e.g., CSV, PDF).
+
+### Notifications
+- Show system notifications for updates or alerts.
+- Allow filtering by priority (e.g., URGENT, NEW).
+
+### Authentication
+- Implement user authentication and role-based access.
+- Support multi-factor authentication (MFA).
+
+## Non-Functional Requirements
+
+### Performance
+- Ensure quick loading times for the dashboard.
+- Optimize database queries for efficiency.
+
+### Scalability
+- Design the backend to handle increased traffic and data.
+- Use scalable cloud services for hosting.
+
+### Security
+- Use HTTPS for all communications.
+- Protect sensitive data with encryption.
+- Implement proper user access control.
+
+### Usability
+- Provide a user-friendly, responsive interface.
+- Optimize for both desktop and mobile devices.
+
+### Deployment
+- Automate deployments using CI/CD pipelines.
+- Ensure reliable hosting with proper uptime guarantees.
+
+## Tech Stack
+
+### Frontend
+- Framework: React
+- Styling: CSS/SCSS
+- Visualization: Chart.js or D3.js
+
+### Backend
+- Runtime: Node.js
+- Framework: Express.js
+- Database: MongoDB
+
+### Tools
+- State Management: Redux
+- Authentication: JWT
+- Deployment: Vercel (frontend) and Railway (backend)
+- Version Control: GitHub
+
+---
+
+This document outlines the rules and requirements for building a professional-grade E-commerce Admin Dashboard.
