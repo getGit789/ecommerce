@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0B1437;
+    --foreground: #ffffff;
+  }
+
+  body {
+    @apply bg-background text-white;
+  }
+}
+
+/* Hide Next.js development mode indicator */
+#__next-build-watcher {
+  display: none;
+}
+
+/* Hide static route indicator */
+[data-nextjs-route-announcer],
+[data-next-route-announcer] {
+  display: none !important;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-background-darker;
+  border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-background-dark;
+}
